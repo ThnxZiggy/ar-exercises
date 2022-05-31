@@ -5,3 +5,5 @@ class Employee < ActiveRecord::Base
   validates :hourly_rate, :inclusion => 40..200
   validates :store, presence: true
 end
+
+
