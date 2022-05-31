@@ -19,5 +19,4 @@ puts @average_revenue
 
 #number of stores with revenue > $1m
 @rich_stores = Store.where('annual_revenue > ?', 1000000).count
-
 puts @rich_stores
